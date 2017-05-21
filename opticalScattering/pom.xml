@@ -30,9 +30,9 @@
     </dependency> 
   </dependencies>
   <scm>
-    <connection>scm:git:git@github.com:frnsroy/project_java.git</connection>
-    <url>https://github.com/frnsroy/project_java</url>
-    <developerConnection>scm:git:git@github.com:frnsroy/project_java.git</developerConnection>
+    <connection>scm:git:git@github.com:dbeat/Optics.git</connection>
+    <url>https://github.com/dbeat/Optics</url>
+    <developerConnection>scm:git:git@github.com:dbeat/Optics.git</developerConnection>
   </scm>
   <build>
     <pluginManagement>
@@ -71,8 +71,8 @@
       </plugins>
     </pluginManagement>
   </build> 
-  <name>rayOptics</name>
-  <description>Ray Optics code.</description>
-  <url>http://froy.ca</url> 
-  <inceptionYear>2016</inceptionYear>
+  <name>Optics</name>
+  <description>Optics code.</description>
+  <url>https://github.com/dbeat/Optics</url> 
+  <inceptionYear>2017</inceptionYear>
 </project>
