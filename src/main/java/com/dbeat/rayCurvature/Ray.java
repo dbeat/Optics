@@ -1,4 +1,4 @@
-package ca.froy.rayCurvature;
+package com.dbeat.rayCurvature;
 
 import org.apache.commons.math3.exception.DimensionMismatchException;
 import org.apache.commons.math3.exception.MaxCountExceededException;

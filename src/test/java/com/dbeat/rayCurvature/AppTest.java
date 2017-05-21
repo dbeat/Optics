@@ -1,4 +1,4 @@
-package ca.froy.rayCurvature;
+package com.dbeat.rayCurvature;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

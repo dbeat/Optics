@@ -1,10 +1,11 @@
-package ca.froy.rayCurvature;
+package com.dbeat.rayCurvature;
 
 import org.apache.commons.math3.ode.FirstOrderDifferentialEquations;
 import org.apache.commons.math3.ode.FirstOrderIntegrator;
 import org.apache.commons.math3.ode.nonstiff.ClassicalRungeKuttaIntegrator;
 
-import ca.froy.rayCurvature.Ray;
+import com.dbeat.rayCurvature.Ray;
+
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
