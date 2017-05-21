@@ -1,2 +1,0 @@
-# Optics
-Optics in java
