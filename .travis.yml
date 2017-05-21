@@ -14,7 +14,6 @@ install:
   - sudo pip install ghp-import
 script:
   - mvn --version 
-  - cd opticalScattering
   - mvn clean verify
   - mvn site
   - ghp-import -n -p -m "Update gh-pages." target/site/
