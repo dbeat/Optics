@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project name="MyProj">
+  <skin>
+    <groupId>org.apache.maven.skins</groupId>
+    <artifactId>maven-fluido-skin</artifactId>
+    <version>1.2.1</version>
+  </skin>
+  <custom>
+    <fluidoSkin>
+      <sideBarEnabled>true</sideBarEnabled>
+    </fluidoSkin>
+  </custom>
+  <body>
+    <head>
+	  <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+          tex2jax: {inlineMath: [["$","$"],["\\(","\\)"]]}
+        });
+      </script>
+      <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+    </head>
+    <links>
+      <item name="Apache" href="http://www.apache.org/" />
+    </links>
+    <menu name="MyProj Menu">
+      <item name="Introduction" href="introduction.html"/>
+    </menu>
+    <menu ref="reports"/>
+      <footer>All rights reserved.</footer>
+  </body>
+
+</project>

@@ -1,0 +1,10 @@
+This is an H1
+=============
+
+-   Red
+-   Green
+-   Blue
+
+$\frac{1}{x^2+1}$
+
+This web site was generated for ${project.groupId}:${project.artifactId}:${project.version}.

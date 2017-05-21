@@ -1,0 +1,20 @@
+language: java
+jdk:
+  - oraclejdk8
+sudo: required
+before_install:
+  - openssl aes-256-cbc -K $encrypted_fc4984b7ecd3_key -iv $encrypted_fc4984b7ecd3_iv -in publish-key.enc -out ~/.ssh/publish-key -d
+  - chmod u=rw,og= ~/.ssh/publish-key
+  - echo "Host github.com" >> ~/.ssh/config
+  - echo "  StrictHostKeyChecking no" >> ~/.ssh/config
+  - echo "  IdentityFile ~/.ssh/publish-key" >> ~/.ssh/config
+  - git remote set-url origin git@github.com:dbeat/Optics.git
+  - git fetch origin -f gh-pages:gh-pages
+install:
+  - sudo pip install ghp-import
+script:
+  - mvn --version 
+  - cd opticalScattering
+  - mvn clean verify
+  - mvn site
+  - ghp-import -n -p -m "Update gh-pages." target/site/
